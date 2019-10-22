@@ -109,6 +109,7 @@ p{color:#434242;}
 	.c2 {
     margin-top:230px;
     position: absolute;}
+	
 } 
 @media only screen and (min-device-width:375px) and (max-device-width:425px){
 	.c3 {
@@ -127,7 +128,7 @@ p{color:#434242;}
 }
 @media only screen and (min-device-width:768px) and (max-device-width:869px)
 {
-	p{font-size:12px !important;}.c1{margin-top:350px !important;}
+	.c1{margin-top:350px !important;}
 	.media-body h6{font-weight: bold;
     font-size: 13px;}
 	.table{font-size:14px;}
@@ -534,7 +535,6 @@ form.example button {
   border-left: none;
   cursor: pointer;
 }
-
 }
 * {
   box-sizing: border-box;
@@ -542,7 +542,7 @@ form.example button {
 
 form.example input[type=text] {
   padding: 10px;
-  font-size: 10px;
+  font-size:9px;
   border: 1px solid grey;
   float: left;
   width:70%;
@@ -555,7 +555,7 @@ form.example button {
   padding: 10px;
   background: #e31e25;
   color: white;
-  font-size: 10px;
+  font-size:9px;
   border: 1px solid grey;
   border-left: none;
   cursor: pointer;
@@ -574,7 +574,7 @@ form.example::after {
   
 }
 @media only screen and (max-width:2560px) and (min-device-width:995px){
-	{
+
 		form.example button {
   float: left;
   width:30%;
@@ -587,7 +587,7 @@ form.example::after {
   cursor: pointer;
 }
 
-}
+
 * {
   box-sizing: border-box;
 }
@@ -622,6 +622,14 @@ form.example::after {
   clear: both;
   display: table;
 }
-		
-	}
+}
 .maintext p{color:#5d5d5d;text-align:justify;}
+.row2 p{font-size:12px;font-weight:bold;}
+@media only screen and (max-width:994px) and (min-device-width:768px){
+	.row1 h1{font-size:28px;}
+	.row2 p{font-size:9px;font-weight:bold;}
+	.maintext p{font-size:12px;}
+	.footer p {
+    font-size: 10px;
+}
+}
